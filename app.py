@@ -52,3 +52,6 @@ def launch_love_capsule():
 @app.route("/")
 def home():
     return "Webhook prêt à lancer la Love Capsule 💘"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
